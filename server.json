@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "venda",
+      "price": 14000,
+      "createdAt": "2022-08-22T14:27:13.371Z"
+    },
+    {
+      "id": 2,
+      "description": "Cinema",
+      "type": "outcome",
+      "category": "Intreterimento",
+      "price": 60,
+      "createdAt": "2022-08-22T14:27:13.371Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2022-08-22T14:27:13.371Z"
+    }
+  ]
+}
