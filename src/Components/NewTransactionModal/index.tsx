@@ -13,6 +13,7 @@ import {
   TransactionType,
   TransactionTypeButton,
 } from './styles'
+import { ModalContext } from '../../Contexts/ModalContext'
 
 const newTransactionsFormSchema = z.object({
   description: z.string(),
@@ -24,6 +25,10 @@ const newTransactionsFormSchema = z.object({
 type NewTransactionsFormInputs = z.infer<typeof newTransactionsFormSchema>
 
 export function NewTransactionModal() {
+  const closeModal = useContextSelector(ModalContext, (context) => {
+    return context.closeModal
+  })
+
   const createTransaction = useContextSelector(
     TransactionsContext,
     (context) => {
@@ -55,6 +60,7 @@ export function NewTransactionModal() {
     })
 
     reset()
+    closeModal()
   }
 
   return (

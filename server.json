@@ -17,44 +17,12 @@
       "createdAt": "2022-08-22T14:27:13.371Z"
     },
     {
-      "id": 3,
-      "description": "Ignite Rocketseat",
+      "description": "Casa",
+      "price": 1200,
+      "category": "Aluguel",
       "type": "outcome",
-      "category": "Educação",
-      "price": 1980,
-      "createdAt": "2022-08-22T14:27:13.371Z"
-    },
-    {
-      "description": "Carro",
-      "price": 10000,
-      "category": "Locomoção",
-      "type": "outcome",
-      "createdAt": "2022-08-22T23:12:51.443Z",
-      "id": 4
-    },
-    {
-      "description": "Salário do mês",
-      "price": 25000,
-      "category": "Trabalho",
-      "type": "income",
-      "createdAt": "2022-08-22T23:16:22.371Z",
-      "id": 5
-    },
-    {
-      "description": "Uber",
-      "price": 12,
-      "category": "Transporte",
-      "type": "outcome",
-      "createdAt": "2022-08-22T23:34:48.411Z",
-      "id": 6
-    },
-    {
-      "description": "Desenvolvimento de app",
-      "price": 10000,
-      "category": "venda",
-      "type": "income",
-      "createdAt": "2022-08-23T20:54:38.610Z",
-      "id": 7
+      "createdAt": "2022-08-23T22:53:36.874Z",
+      "id": 3
     }
   ]
 }
